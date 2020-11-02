@@ -784,13 +784,20 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 40px;
   width: 388px;
+}
+.car-info__data-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .car-info__data-unit {
   display: -webkit-box;
@@ -800,10 +807,8 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 145px;
-  overflow: visible;
 }
-.car-info__data-unit:nth-child(n+3) {
+.car-info__data-unit:not(:first-of-type) {
   margin-top: 30px;
 }
 .car-info__data-name {
@@ -915,16 +920,118 @@ template {
   left: 15px;
 }
 
+@media screen and (max-width: 1200px) {
+  .car-info__view {
+    width: 480px;
+    margin-left: 0;
+  }
+  .car-info__img {
+    bottom: 20px;
+  }
+  .car-info__label {
+    width: 180px;
+    height: 60px;
+    bottom: 170px;
+    right: 20px;
+  }
+  .car-info__label-text {
+    font-size: 17px;
+  }
+  .car-info__label-undertext {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .car-info__credit {
+    margin-left: 40px;
+  }
+  .car-info__model {
+    font-size: 40px;
+  }
+  .car-info__data-list {
+    margin-top: 32px;
+  }
+  .car-info__data-unit:not(:first-of-type) {
+    margin-top: 25px;
+  }
+  .car-info__data-value {
+    font-size: 25px;
+    margin-top: 3px;
+  }
+  .car-info__feedback {
+    margin-top: 44px;
+  }
+
+  .proposal {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .car-info__view {
+    width: 61%;
+  }
+  .car-info__label {
+    width: 150px;
+    height: 50px;
+    bottom: 180px;
+  }
+  .car-info__label-text {
+    font-size: 14px;
+  }
+  .car-info__label-undertext {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .car-info__credit {
+    width: 35%;
+    margin-left: 4%;
+  }
+  .car-info__model {
+    font-size: 32px;
+  }
+  .car-info__data-list {
+    width: 100%;
+  }
+  .car-info__data-value {
+    font-size: 22px;
+  }
+  .car-info__feedback {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+  .car-info__test-drive {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .car-info__view {
+    width: 55%;
+  }
+  .car-info__img {
+    bottom: 60px;
+  }
+  .car-info__credit {
+    width: 44%;
+    margin-left: 1%;
+  }
+}
 @media screen and (max-width: 577px) {
   .car-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .car-info__view {
     width: 290px;
-    margin-left: 0;
   }
   .car-info__img {
     bottom: 20px;
@@ -944,6 +1051,7 @@ template {
     line-height: 11px;
   }
   .car-info__credit {
+    width: 100%;
     margin-left: 0;
   }
   .car-info__model {
@@ -951,12 +1059,8 @@ template {
   }
   .car-info__data-list {
     margin-top: 15px;
-    width: 100%;
   }
-  .car-info__data-unit {
-    width: 125px;
-  }
-  .car-info__data-unit:nth-child(n+3) {
+  .car-info__data-unit :not(:first-of-type) {
     margin-top: 20px;
   }
   .car-info__data-name {
@@ -966,20 +1070,6 @@ template {
   .car-info__data-value {
     font-size: 20px;
     margin-top: 2px;
-  }
-  .car-info__feedback {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 30px;
-  }
-  .car-info__test-drive {
-    font-size: 15px;
-    margin-top: 20px;
   }
 
   .proposal {

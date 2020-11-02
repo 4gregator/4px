@@ -69,22 +69,26 @@
           <div class="car-info__credit">
             <h2 class="car-info__model">XC90</h2>
             <ul class="car-info__data-list">
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Выгода до</p>
-                <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Бонус</p>
-                <p class="car-info__data-value">Trade-in</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Кредитная ставка</p>
-                <p class="car-info__data-value">5,9%<sup>1</sup></p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Ежемесячный платеж</p>
-                <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
-              </li>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Выгода до</p>
+                  <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Кредитная ставка</p>
+                  <p class="car-info__data-value">5,9%<sup>1</sup></p>
+                </li>
+              </div>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Бонус</p>
+                  <p class="car-info__data-value">Trade-in</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Ежемесячный платеж</p>
+                  <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
+                </li>
+              </div>
             </ul>
             <div class="credit-type car-info__credit-type">
               <span class="credit-type__credit-name">Кредит</span>
@@ -119,22 +123,26 @@
           <div class="car-info__credit">
             <h2 class="car-info__model">XC60</h2>
             <ul class="car-info__data-list">
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Выгода до</p>
-                <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Бонус</p>
-                <p class="car-info__data-value">Trade-in</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Кредитная ставка</p>
-                <p class="car-info__data-value">5,9%<sup>1</sup></p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Ежемесячный платеж</p>
-                <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
-              </li>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Выгода до</p>
+                  <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Кредитная ставка</p>
+                  <p class="car-info__data-value">5,9%<sup>1</sup></p>
+                </li>
+              </div>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Бонус</p>
+                  <p class="car-info__data-value">Trade-in</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Ежемесячный платеж</p>
+                  <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
+                </li>
+              </div>
             </ul>
             <div class="credit-type car-info__credit-type">
               <span class="credit-type__credit-name">Кредит</span>
@@ -169,22 +177,26 @@
           <div class="car-info__credit">
             <h2 class="car-info__model">XC40</h2>
             <ul class="car-info__data-list">
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Выгода до</p>
-                <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Бонус</p>
-                <p class="car-info__data-value">Trade-in</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Кредитная ставка</p>
-                <p class="car-info__data-value">5,9%<sup>1</sup></p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Ежемесячный платеж</p>
-                <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
-              </li>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Выгода до</p>
+                  <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Кредитная ставка</p>
+                  <p class="car-info__data-value">5,9%<sup>1</sup></p>
+                </li>
+              </div>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Бонус</p>
+                  <p class="car-info__data-value">Trade-in</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Ежемесячный платеж</p>
+                  <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
+                </li>
+              </div>
             </ul>
             <div class="credit-type car-info__credit-type">
               <span class="credit-type__credit-name">Кредит</span>
@@ -219,22 +231,26 @@
           <div class="car-info__credit">
             <h2 class="car-info__model">Новый S60</h2>
             <ul class="car-info__data-list">
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Выгода до</p>
-                <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Бонус</p>
-                <p class="car-info__data-value">Trade-in</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Кредитная ставка</p>
-                <p class="car-info__data-value">5,9%<sup>1</sup></p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Ежемесячный платеж</p>
-                <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
-              </li>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Выгода до</p>
+                  <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Кредитная ставка</p>
+                  <p class="car-info__data-value">5,9%<sup>1</sup></p>
+                </li>
+              </div>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Бонус</p>
+                  <p class="car-info__data-value">Trade-in</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Ежемесячный платеж</p>
+                  <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
+                </li>
+              </div>
             </ul>
             <div class="credit-type car-info__credit-type">
               <span class="credit-type__credit-name">Кредит</span>
@@ -269,22 +285,26 @@
           <div class="car-info__credit">
             <h2 class="car-info__model">S90</h2>
             <ul class="car-info__data-list">
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Выгода до</p>
-                <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Бонус</p>
-                <p class="car-info__data-value">Trade-in</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Кредитная ставка</p>
-                <p class="car-info__data-value">5,9%<sup>1</sup></p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Ежемесячный платеж</p>
-                <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
-              </li>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Выгода до</p>
+                  <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Кредитная ставка</p>
+                  <p class="car-info__data-value">5,9%<sup>1</sup></p>
+                </li>
+              </div>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Бонус</p>
+                  <p class="car-info__data-value">Trade-in</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Ежемесячный платеж</p>
+                  <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
+                </li>
+              </div>
             </ul>
             <div class="credit-type car-info__credit-type">
               <span class="credit-type__credit-name">Кредит</span>
@@ -319,22 +339,26 @@
           <div class="car-info__credit">
             <h2 class="car-info__model">V90 cross country</h2>
             <ul class="car-info__data-list">
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Выгода до</p>
-                <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Бонус</p>
-                <p class="car-info__data-value">Trade-in</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Кредитная ставка</p>
-                <p class="car-info__data-value">5,9%<sup>1</sup></p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Ежемесячный платеж</p>
-                <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
-              </li>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Выгода до</p>
+                  <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Кредитная ставка</p>
+                  <p class="car-info__data-value">5,9%<sup>1</sup></p>
+                </li>
+              </div>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Бонус</p>
+                  <p class="car-info__data-value">Trade-in</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Ежемесячный платеж</p>
+                  <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
+                </li>
+              </div>
             </ul>
             <div class="credit-type car-info__credit-type">
               <span class="credit-type__credit-name">Кредит</span>
@@ -369,22 +393,26 @@
           <div class="car-info__credit">
             <h2 class="car-info__model">V60 cross country</h2>
             <ul class="car-info__data-list">
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Выгода до</p>
-                <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Бонус</p>
-                <p class="car-info__data-value">Trade-in</p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Кредитная ставка</p>
-                <p class="car-info__data-value">5,9%<sup>1</sup></p>
-              </li>
-              <li class="car-info__data-unit">
-                <p class="car-info__data-name">Ежемесячный платеж</p>
-                <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
-              </li>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Выгода до</p>
+                  <p class="car-info__data-value">250&nbsp;000&nbsp;&#8381;</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Кредитная ставка</p>
+                  <p class="car-info__data-value">5,9%<sup>1</sup></p>
+                </li>
+              </div>
+              <div class="car-info__data-col">
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Бонус</p>
+                  <p class="car-info__data-value">Trade-in</p>
+                </li>
+                <li class="car-info__data-unit">
+                  <p class="car-info__data-name">Ежемесячный платеж</p>
+                  <p class="car-info__data-value">20&nbsp;358&nbsp;&#8381;<sup>2</sup></p>
+                </li>
+              </div>
             </ul>
             <div class="credit-type car-info__credit-type">
               <span class="credit-type__credit-name">Кредит</span>
