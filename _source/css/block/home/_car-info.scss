@@ -148,10 +148,6 @@
     line-height: 100%;
     text-decoration-line: underline;
     color: $color_main;
-
-    &:hover {
-      color: $color_secondary;
-    }
   }
 }
 
@@ -168,10 +164,6 @@
   color: $color_tertiary;
   cursor: pointer;
   position: relative;
-
-  &:hover {
-    background-color: #008EEC;
-  }
 
   &__arrow {
     margin-left: 13px;
@@ -223,6 +215,16 @@
     &_position_right {
       left: 15px;
     }
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .car-info__test-drive:hover {
+    color: $color_secondary;
+  }
+
+  .proposal:hover {
+    background-color: #008EEC;
   }
 }
 

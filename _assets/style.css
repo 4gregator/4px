@@ -637,29 +637,29 @@ template {
 .js-model-list__unit[data-model="V60"] .js-model-list__img {
   background-image: url(/_source/img/models-small/v60.png);
 }
-.js-model-list__unit:hover .js-model-list__name, .js-model-list__unit_active .js-model-list__name {
+.js-model-list__unit_active .js-model-list__name {
   color: #007BCD;
   font-weight: bold;
 }
-.js-model-list__unit:hover[data-model="XC90"] .js-model-list__img, .js-model-list__unit_active[data-model="XC90"] .js-model-list__img {
+.js-model-list__unit_active[data-model="XC90"] .js-model-list__img {
   background-image: url(/_source/img/models-small/xc90a.png);
 }
-.js-model-list__unit:hover[data-model="XC60"] .js-model-list__img, .js-model-list__unit_active[data-model="XC60"] .js-model-list__img {
+.js-model-list__unit_active[data-model="XC60"] .js-model-list__img {
   background-image: url(/_source/img/models-small/xc60a.png);
 }
-.js-model-list__unit:hover[data-model="XC40"] .js-model-list__img, .js-model-list__unit_active[data-model="XC40"] .js-model-list__img {
+.js-model-list__unit_active[data-model="XC40"] .js-model-list__img {
   background-image: url(/_source/img/models-small/xc40a.png);
 }
-.js-model-list__unit:hover[data-model="S60"] .js-model-list__img, .js-model-list__unit_active[data-model="S60"] .js-model-list__img {
+.js-model-list__unit_active[data-model="S60"] .js-model-list__img {
   background-image: url(/_source/img/models-small/s60a.png);
 }
-.js-model-list__unit:hover[data-model="S90"] .js-model-list__img, .js-model-list__unit_active[data-model="S90"] .js-model-list__img {
+.js-model-list__unit_active[data-model="S90"] .js-model-list__img {
   background-image: url(/_source/img/models-small/s90a.png);
 }
-.js-model-list__unit:hover[data-model="V90"] .js-model-list__img, .js-model-list__unit_active[data-model="V90"] .js-model-list__img {
+.js-model-list__unit_active[data-model="V90"] .js-model-list__img {
   background-image: url(/_source/img/models-small/v90a.png);
 }
-.js-model-list__unit:hover[data-model="V60"] .js-model-list__img, .js-model-list__unit_active[data-model="V60"] .js-model-list__img {
+.js-model-list__unit_active[data-model="V60"] .js-model-list__img {
   background-image: url(/_source/img/models-small/v60a.png);
 }
 .js-model-list__img {
@@ -682,6 +682,33 @@ template {
   color: #161618;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .js-model-list__unit:hover .js-model-list__name {
+    color: #007BCD;
+    font-weight: bold;
+  }
+  .js-model-list__unit:hover[data-model="XC90"] .js-model-list__img {
+    background-image: url(/_source/img/models-small/xc90a.png);
+  }
+  .js-model-list__unit:hover[data-model="XC60"] .js-model-list__img {
+    background-image: url(/_source/img/models-small/xc60a.png);
+  }
+  .js-model-list__unit:hover[data-model="XC40"] .js-model-list__img {
+    background-image: url(/_source/img/models-small/xc40a.png);
+  }
+  .js-model-list__unit:hover[data-model="S60"] .js-model-list__img {
+    background-image: url(/_source/img/models-small/s60a.png);
+  }
+  .js-model-list__unit:hover[data-model="S90"] .js-model-list__img {
+    background-image: url(/_source/img/models-small/s90a.png);
+  }
+  .js-model-list__unit:hover[data-model="V90"] .js-model-list__img {
+    background-image: url(/_source/img/models-small/v90a.png);
+  }
+  .js-model-list__unit:hover[data-model="V60"] .js-model-list__img {
+    background-image: url(/_source/img/models-small/v60a.png);
+  }
+}
 @media screen and (max-width: 577px) {
   .js-model-list__unit {
     margin: 0 5px;
@@ -853,9 +880,6 @@ template {
           text-decoration-line: underline;
   color: #161618;
 }
-.car-info__test-drive:hover {
-  color: #007BCD;
-}
 
 .proposal {
   width: 270px;
@@ -868,9 +892,6 @@ template {
   color: #fff;
   cursor: pointer;
   position: relative;
-}
-.proposal:hover {
-  background-color: #008EEC;
 }
 .proposal__arrow {
   margin-left: 13px;
@@ -920,6 +941,15 @@ template {
   left: 15px;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .car-info__test-drive:hover {
+    color: #007BCD;
+  }
+
+  .proposal:hover {
+    background-color: #008EEC;
+  }
+}
 @media screen and (max-width: 1200px) {
   .car-info__view {
     width: 480px;

@@ -40,7 +40,7 @@
       background-image: url(/_source/img/models-small/v60.png);
     }
 
-    &:hover, &_active {
+    &_active {
 
       & .js-model-list__name {
         color: $color_secondary;
@@ -99,6 +99,43 @@
     }
     line-height: 22px;
     color: $color_main;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .js-model-list__unit:hover {
+    & .js-model-list__name {
+      color: $color_secondary;
+      font-weight: bold;
+    }
+
+    &[data-model="XC90"] .js-model-list__img {
+      background-image: url(/_source/img/models-small/xc90a.png);
+    }
+
+    &[data-model="XC60"] .js-model-list__img {
+      background-image: url(/_source/img/models-small/xc60a.png);
+    }
+
+    &[data-model="XC40"] .js-model-list__img {
+      background-image: url(/_source/img/models-small/xc40a.png);
+    }
+
+    &[data-model="S60"] .js-model-list__img {
+      background-image: url(/_source/img/models-small/s60a.png);
+    }
+
+    &[data-model="S90"] .js-model-list__img {
+      background-image: url(/_source/img/models-small/s90a.png);
+    }
+
+    &[data-model="V90"] .js-model-list__img {
+      background-image: url(/_source/img/models-small/v90a.png);
+    }
+    
+    &[data-model="V60"] .js-model-list__img {
+      background-image: url(/_source/img/models-small/v60a.png);
+    }
   }
 }
 

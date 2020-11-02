@@ -1,4 +1,13 @@
 $(function () {
+  // отслеживание события drag
+  let dragging = false;
+  $('body').on('touchmove', e => {
+    dragging = true;
+  });
+  $('body').on('touchstart', e => {
+    dragging = false;
+  });
+
   // массив пар имён классов, меняющих контент табов
   const changeList = new Map([
     ['js-carbody-list__name', 'js-model-list'],
@@ -8,8 +17,8 @@ $(function () {
   for (let arr of changeList.entries()) {
     let changing = new Changer(arr[0], arr[1]);
 
-    $(changing.element).on('click, touchend', e => {
-      changing.change(e.currentTarget);
+    $(changing.element).on('click touchend', e => {
+      if (!dragging) changing.change(e.currentTarget);
     });
   }
 
