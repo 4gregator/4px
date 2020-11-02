@@ -10,7 +10,7 @@ const owlInit = function() {
   if ($(window).width() < 1200) {
     $('.owl-carousel').owlCarousel({
       items: 1,
-      loop: true,
+      //loop: true,
       autoWidth: true,
       dots: false
     });

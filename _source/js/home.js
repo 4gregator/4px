@@ -8,7 +8,7 @@ $(function () {
   for (let arr of changeList.entries()) {
     let changing = new Changer(arr[0], arr[1]);
 
-    $(changing.element).on('click', e => {
+    $(changing.element).on('click, touchend', e => {
       changing.change(e.currentTarget);
     });
   }
@@ -17,7 +17,7 @@ $(function () {
   owlInit();
 
   //переключатель кредит/лизинг
-  $('.credit-type__credit-name, .credit-type__credit-switch').click('click, touchend', e => {
+  $('.credit-type__credit-name, .credit-type__credit-switch').click('click', e => {
     if ( $(e.currentTarget).hasClass('credit-type__credit-name_active') ) return;
     let father = $(e.currentTarget).parent();
     father.find('.credit-type__switcher').toggleClass('credit-type__switcher_position_right').toggleClass('credit-type__switcher_position_left');
